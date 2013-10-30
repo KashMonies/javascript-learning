@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <title>jQuery Example</title>
+                <script src="http://code.jquery.com/jquery-latest.js"></script>
+                <script>
+                        $(document).ready(function(){
+                        	
+                        	$("div").click(function(){
+                		
+                		$("div").addClass("off");
+                	   
+                	
+                	});	
+                    
+                    $("h2").click(function(){
+                    $("div").removeClass("off");
+                     });
+                    
+                        	$("h1").click(function(){
+                				$("h1").addClass("fancy");
+        	    			console.log("woah!");
+        	    		});			
+        	
+        	
+        	
+                		
+                		});
+                	
+                
+                		
+            
+                
+                </script>
+        		<style>
+        		 
+        		 .off{background-color:black;
+        		 	  ;
+        		  
+        		  }
+        		.on{background-color:white;
+        			;
+        		   }	 
+        		    
+        		    
+        		    
+        		.h1{
+				     background-color:orange;
+				     color:green;
+				     } 
+				
+					
+        		</style>
+        </head>
+        <body>
+  
+      <div>
+        <h1>"rythem of the night"</h1>
+      </div>
+      
+      
+	<h2>this is the second span</h2>
+ </body>
+</html>
